@@ -10,15 +10,15 @@ const ConnectWithMe = () => {
 
             <div className='min-h-screen dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900'>
 
-                <div className='w-11/10 p-12 lg:px-44 text-center lg:text-left rounded-xl flex flex-col lg:flex-row items-center justify-center gap-5'>
+                <div className='w-11/10 mt-12 p-12 lg:px-44 text-center lg:text-left rounded-xl flex flex-col lg:flex-row items-center justify-center gap-5'>
 
                     <div>
 
-                        <p className='mt-16 mb-12 text-4xl text-green-900 dark:text-green-200 font-shantellSans tracking-widest'>
+                        <p className='mb-12 text-4xl text-green-900 dark:text-green-200 font-shantellSans tracking-widest'>
                             My Skills
                         </p>
 
-                        <div className='mb-16 text-2xl font-semibold font-nunito tracking-wider flex flex-col gap-10'>
+                        <div className='text-2xl font-semibold font-nunito tracking-wider flex flex-col gap-10'>
 
                             <div className='flex flex-col text-2xl gap-3'>
                                 <span className='text-green-700 dark:text-green-300'>Technologies: </span>

@@ -18,9 +18,7 @@ const About = () => {
 
             <p className='mb-3 text-xl text-green-600 dark:text-green-200 font-semibold font-nunito tracking-widest lg:tracking-wider'>I am a coder who loves to learn and explore various programming languages. I love learning new technologies and frameworks and create something unique out of it.</p>
 
-            <p className='mb-3 text-xl text-green-600 dark:text-green-200 dark:text-green-300dark:text-green-300 font-semibold font-nunito tracking-widest lg:tracking-wider'>I have created various projects related to web development and machine learning which you can check by clicking <NavLink to='/project-category'><span className='text-green-600 dark:text-green-400 uppercase text-2xl'>here.</span></NavLink></p>
-
-            <p className='mb-10 lg:mb-8 text-xl text-green-600 dark:text-green-200 font-semibold font-nunito tracking-widest lg:tracking-wider'>I am skilled in creating MERN stack projects and deploying machine learning models with the help of FastAPI.</p>
+            <p className='mb-8 text-xl text-green-600 dark:text-green-200 dark:text-green-300dark:text-green-300 font-semibold font-nunito tracking-widest lg:tracking-wider'>I have created various projects related to web development and machine learning which you can check by clicking <NavLink to='/project-category'><span className='text-green-600 dark:text-green-400 uppercase text-2xl'>here.</span></NavLink></p>
 
             <a href={ResumePDF} download="my_resume">
               <button className='m-auto lg:m-0 p-7 lg:px-10 lg:py-6 outline-none shadow-xl rounded-2xl border-b-8 border-green-700 dark:border-green-500 flex items-center justify-center gap-3 transition-all duration-500 hover:scale-110 hover:bg-green-50 dark:hover:bg-slate-900'>
