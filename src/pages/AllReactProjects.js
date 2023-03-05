@@ -44,8 +44,8 @@ const AllReactProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'React',
-            projectLivePreviewLink: 'https://my-finance-manager-frontend.vercel.app/',
-            projectGithubLink: 'https://github.com/somenath203/My-Finance-Manager-Frontend'
+            projectLivePreviewLink: 'https://62b72a3ff57baf0f4ffb805a--mycolors-generator.netlify.app/
+            projectGithubLink: 'https://github.com/somenath203/React-Colors-Generator'
         },
         {
             id: 3,
