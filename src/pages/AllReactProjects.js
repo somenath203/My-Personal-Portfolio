@@ -44,7 +44,7 @@ const AllReactProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'React',
-            projectLivePreviewLink: 'https://62b72a3ff57baf0f4ffb805a--mycolors-generator.netlify.app/
+            projectLivePreviewLink: 'https://62b72a3ff57baf0f4ffb805a--mycolors-generator.netlify.app/',
             projectGithubLink: 'https://github.com/somenath203/React-Colors-Generator'
         },
         {
