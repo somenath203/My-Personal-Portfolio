@@ -56,7 +56,7 @@ const AllAchievements = () => {
 
                 <div className='w-11/12'>
 
-                    <p className='mt-20 text-4xl lg:text-5xl text-center font-shantellSans tracking-wider text-green-900 dark:text-green-100'>My Achievements</p>
+                    <p className='mt-20 text-3xl lg:text-5xl text-center font-shantellSans tracking-wider text-green-900 dark:text-green-100'>My Achievements</p>
 
                     <div className='mt-16 grid grid-cols-1 lg:grid-cols-3 gap-20 pb-10'>
 
