@@ -10,7 +10,7 @@ const ConnectWithMe = () => {
 
             <div className='min-h-screen dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900'>
 
-                <div className='w-11/10 mt-12 p-12 lg:px-44 text-center lg:text-left rounded-xl flex flex-col lg:flex-row items-center justify-center gap-5'>
+                <div className='w-11/10 mt-14 lg:mt-4 lg:px-44 text-center lg:text-left rounded-xl flex flex-col lg:flex-row items-center justify-center gap-5'>
 
                     <div>
 
@@ -32,14 +32,18 @@ const ConnectWithMe = () => {
 
                             <div className='flex flex-col gap-3'>
                                 <span className='text-green-700 dark:text-green-300'>Web Development: </span>
-                                <span className='flex gap-4 flex-col lg:flex-row dark:text-white'>
-                                    <span>ReactJS,</span>
-                                    <span>NodeJS,</span>
-                                    <span>antd,</span>
-                                    <span>TailwindCSS,</span>
-                                    <span>MongoDB,</span>
-                                    <span>Cloudinary,</span>
-                                    <span>FastAPI</span>
+                                <span className='flex flex-col dark:text-white'>
+                                    <span className='flex flex-col lg:flex-row gap-3'>
+                                        <span>ReactJS,</span>
+                                        <span>NodeJS,</span>
+                                        <span className='mb-3'>antd,</span>
+                                    </span>
+                                    <span className='flex flex-col lg:flex-row gap-3'>
+                                        <span>TailwindCSS,</span>
+                                        <span>MongoDB,</span>
+                                        <span>Cloudinary,</span>
+                                        <span>FastAPI</span>
+                                    </span>
                                 </span>
                             </div>
 
@@ -60,7 +64,7 @@ const ConnectWithMe = () => {
                     </div>
 
                     <div>
-                        <img src={MySkillsImg} alt="aboutusimg" className='mt-8 hidden lg:block w-full scale-125' />
+                        <img src={MySkillsImg} alt="aboutusimg" className='mt-8 hidden lg:block w-full scale-75' />
                     </div>
 
                 </div>
