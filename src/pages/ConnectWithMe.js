@@ -13,7 +13,7 @@ const ConnectWithMe = () => {
 
                 <div className='w-11/10 lg:p-8 lg:px-44 text-left rounded-xl flex items-center justify-center gap-12 flex-col lg:flex-row'>
 
-                    <div className='mt-32 lg:mt-8'>
+                    <div className='mt-36 lg:mt-8'>
                         <p className='mb-14 text-xl text-center lg:text-left lg:text-3xl text-green-900 dark:text-green-100 font-shantellSans tracking-widest'>
                             Connect With Me
                         </p>

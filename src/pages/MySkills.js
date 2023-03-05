@@ -10,15 +10,15 @@ const ConnectWithMe = () => {
 
             <div className='min-h-screen dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900'>
 
-                <div className='w-11/10 p-12 lg:px-44 text-center lg:text-left rounded-xl grid grid-cols-1 lg:grid-cols-2 items-center gap-96'>
+                <div className='w-11/10 p-12 lg:px-44 text-center lg:text-left rounded-xl flex flex-col lg:flex-row items-center justify-center gap-5'>
 
                     <div>
 
-                        <p className='mt-8 mb-12 text-4xl text-green-900 dark:text-green-200 font-shantellSans tracking-widest'>
+                        <p className='mt-16 mb-12 text-4xl text-green-900 dark:text-green-200 font-shantellSans tracking-widest'>
                             My Skills
                         </p>
 
-                        <div className='mb-8 text-2xl font-semibold font-nunito tracking-wider flex flex-col gap-10'>
+                        <div className='mb-16 text-2xl font-semibold font-nunito tracking-wider flex flex-col gap-10'>
 
                             <div className='flex flex-col text-2xl gap-3'>
                                 <span className='text-green-700 dark:text-green-300'>Technologies: </span>
@@ -60,7 +60,7 @@ const ConnectWithMe = () => {
                     </div>
 
                     <div>
-                        <img src={MySkillsImg} alt="aboutusimg" className='mt-8 hidden lg:block w-full scale-110' />
+                        <img src={MySkillsImg} alt="aboutusimg" className='mt-8 hidden lg:block w-full scale-125' />
                     </div>
 
                 </div>
