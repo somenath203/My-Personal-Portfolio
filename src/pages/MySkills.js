@@ -1,8 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
 import DefaultLayout from './../components/DefaultLayout';
 
-import MySkillsImg from './../assets/my-skills.svg';
-
 
 const ConnectWithMe = () => {
     return (
