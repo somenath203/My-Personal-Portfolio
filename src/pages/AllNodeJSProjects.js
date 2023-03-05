@@ -36,7 +36,7 @@ const AllNodeJSProjects = () => {
             widthOfImg: 'w-screen',
             techStack: 'NodeJS, ExpressJS, MongoDB, CLoudinary',
             projectLivePreviewLink: 'https://blog-api-links.netlify.app/',
-            projectGithubLink: 'https://github.com/somenath203/Titanic-Survival-Project-Frontend'
+            projectGithubLink: 'https://github.com/somenath203/Blog-Backend-API'
         },
         {
             id: 2,
@@ -46,7 +46,7 @@ const AllNodeJSProjects = () => {
             heightOfImg: 'h-60',
             widthOfImg: 'w-screen',
             techStack: 'NodeJS, ExpressJS, MongoDB, CLoudinary, Sendgrid',
-            projectLivePreviewLink: 'https://share.streamlit.io/somenath203/a.i.-powered-boston-house-price-predictor-website/main/boston_house_web_app.py',
+            projectLivePreviewLink: 'https://jobs-api-backend.onrender.com/',
             projectGithubLink: 'https://github.com/somenath203/Blog-Backend-API'
         },
         {
