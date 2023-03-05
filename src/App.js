@@ -18,7 +18,7 @@ import PageNotFound from "./pages/PageNotFound";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-white dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900">
       <BrowserRouter>
 
         <Routes>
@@ -41,7 +41,7 @@ const App = () => {
         </Routes>
 
       </BrowserRouter>
-    </>
+    </div>
   )
 };
 

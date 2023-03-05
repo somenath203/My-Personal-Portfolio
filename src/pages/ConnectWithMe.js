@@ -11,7 +11,7 @@ const ConnectWithMe = () => {
 
             <div className='min-h-screen dark:bg-gradient-to-r dark:from-slate-800 dark:to-slate-900'>
 
-                <div className='w-11/10 lg:p-8 lg:px-44 text-left rounded-xl grid grid-cols-1 lg:grid-cols-2 items-center gap-28'>
+                <div className='w-11/10 lg:p-8 lg:px-44 text-left rounded-xl flex items-center justify-center gap-12 flex-col lg:flex-row'>
 
                     <div className='mt-32 lg:mt-8'>
                         <p className='mb-14 text-xl text-center lg:text-left lg:text-3xl text-green-900 dark:text-green-100 font-shantellSans tracking-widest'>
