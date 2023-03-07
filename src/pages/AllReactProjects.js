@@ -7,6 +7,7 @@ import DefaultLayout from "../components/DefaultLayout";
 import LoremIpsumGeneratorPic from './../assets/loremipsumgeneratorpic.png';
 import ColorsGeneratorPic from './../assets/colorsgenerator.png';
 import GroceryPic from './../assets/grocerybud.png';
+import GenerateImgProj from './../assets/generateimageproj.png';
 
 
 const AllReactProjects = () => {
@@ -57,6 +58,17 @@ const AllReactProjects = () => {
             techStack: 'React',
             projectLivePreviewLink: 'https://grocery-bud-lemon.vercel.app/',
             projectGithubLink: 'https://github.com/somenath203/Grocery-Bud'
+        },
+        {
+            id: 4,
+            projectName: 'Image Generator',
+            projectDescription: 'This is a project where the user will be able to generate image of anything by just typing the text in the input field.',
+            projectPic: GenerateImgProj,
+            heightOfImg: 'h-60',
+            widthOfImg: 'w-screen',
+            techStack: 'React, TailwindCSS, Chakra-UI, ExpressJS, OpenAI',
+            projectLivePreviewLink: 'https://image-generator-frontend-two.vercel.app/',
+            projectGithubLink: 'https://github.com/somenath203/Image-Generator-Frontend'
         },
     ];
 
